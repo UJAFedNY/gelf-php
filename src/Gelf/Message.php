@@ -297,6 +297,6 @@ class Message implements MessageInterface
         }
 
         // return after filtering false, null and empty strings
-        return array_filter($message, 'strlen');
+        return array_filter($message);
     }
 }
